@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="400dp"
+    android:background="#8F3A1B"
+    android:orientation="vertical"
+    tools:context=".FragmentOne">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome to Fragment One"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:layout_gravity="center"
+        android:gravity="center"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="First Fragment Name"
+        android:id="@+id/tvOne"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:onClick="callSecondActivity"
+        android:layout_height="wrap_content"
+        android:text="PASS Data"
+        />
+</FrameLayout>
